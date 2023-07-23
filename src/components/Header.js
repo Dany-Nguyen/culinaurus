@@ -5,7 +5,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Header } from 'flotiq-components-react';
 import { StaticImage } from 'gatsby-plugin-image';
 
-const headerText = 'All you can eat';
+const headerText = 'Culinaurus';
 
 const PageHeader = () => (
     <Disclosure as="nav">
@@ -19,19 +19,19 @@ const PageHeader = () => (
                                     <>
                                         <div className='block md:hidden'>
                                             <StaticImage
-                                                src="../assets/recipe-logo.svg"
+                                                src="../assets/favicon.png"
                                                 alt="Logo small"
-                                                width={83}
-                                                height={32}
+                                                width={16}
+                                                height={16}
                                                 placeholder="none"
                                             />
                                         </div>
                                         <div className='hidden md:block'>
                                             <StaticImage
-                                                src="../assets/recipe-logo.svg"
+                                                src="../assets/favicon.png"
                                                 alt="Logo big"
-                                                width={124}
-                                                height={48}
+                                                width={16}
+                                                height={16}
                                                 placeholder="none"
                                             />
                                         </div>
@@ -61,18 +61,18 @@ const PageHeader = () => (
                         <div className="order-1 md:order-3 flex items-center">
                             <div className="flex-shrink-0">
                                 <a
-                                    href="mailto:hello@domain.com"
+                                    href="mailto:atelier@nocciola.fr"
                                     className="relative inline-flex items-center px-4 py-2
                                     text-base md:text-lg font-regular hover:text-secondary"
                                 >
-                                    Say Hi!
+                                    Contact
                                 </a>
                             </div>
                         </div>
                         <div className="order-3 md:hidden flex items-center
                         justify-center w-full md:w-auto py-5 md:py-0"
                         >
-                            <h1 className="text-xl font-semibold">All you can eat</h1>
+                            <h1 className="text-xl font-semibold">Culinaurus</h1>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ const PageHeader = () => (
                 <Disclosure.Panel className="md:hidden">
                     <div className="pt-4 pb-3 border-t border-gray-200">
                         <div className="flex items-center px-4 sm:px-6">
-                            <p>Menu content here...</p>
+                            <p>Menu</p>
                         </div>
                     </div>
                 </Disclosure.Panel>

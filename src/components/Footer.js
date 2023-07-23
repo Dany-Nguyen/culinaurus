@@ -99,19 +99,19 @@ const Footer = () => (
                 <>
                     <div className='block md:hidden'>
                         <StaticImage
-                            src="../assets/recipe-logo.svg"
-                            height={32}
-                            width={83}
+                            src="../assets/favicon.png"
+                            height={16}
+                            width={16}
                             alt="Logo small"
                             placeholder="none"
                         />
                     </div>
                     <div className='hidden md:block'>
                         <StaticImage
-                            src="../assets/recipe-logo.svg"
+                            src="../assets/favicon.png"
                             alt="Logo big"
-                            width={103}
-                            height={40}
+                            width={16}
+                            height={16}
                             placeholder="none"
                         />
                     </div>

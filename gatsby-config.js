@@ -11,9 +11,9 @@ require('dotenv').config({
 
 module.exports = {
     siteMetadata: {
-        title: 'Flotiq recipe starter for Gatsby',
-        description: 'Flotiq recipe starter for Gatsby',
-        siteUrl: 'https://flotiqgatsbyrecipe2.gatsbyjs.io',
+        title: 'Culinaurus by Dany',
+        description: 'Thesaurus des recettes de cuisine',
+        siteUrl: 'https://culinaurus.netlify.app/',
     },
     plugins: [
         {
@@ -79,8 +79,8 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
-                host: 'https://flotiqgatsbyrecipe2.gatsbyjs.io',
-                sitemap: 'https://flotiqgatsbyrecipe2.gatsbyjs.io/sitemap.xml',
+                host: 'https://culinaurus.netlify.app/',
+                sitemap: 'https://culinaurus.netlify.app/sitemap.xml',
                 policy: [{ userAgent: '*', allow: '/' }],
             },
         },

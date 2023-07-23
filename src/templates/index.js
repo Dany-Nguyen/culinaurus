@@ -31,12 +31,12 @@ const IndexPage = ({ data, pageContext }) => {
             <Announcement
                 content={(
                     <span className="leading-normal">
-                        A blog full of
+                        Ouvrage de
                         {' '}
-                        <span className="text-secondary font-medium">easy to make recipes</span>
+                        <span className="text-secondary font-medium">recettes de cuisine</span>
                         <br />
                         {' '}
-                        that take the stress out of cooking.
+                        en toute simplicité.
                     </span>
                 )}
                 rounded="none"
